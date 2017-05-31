@@ -20,6 +20,7 @@ padding: 0
 }
 
 .block {
+    z-index: 5;
     background-color: white;
     width: 65vw;
     height: 100vh;
@@ -31,7 +32,8 @@ padding: 0
 }
 
 .body {
-    margin: 5vw
+    margin: 5vw;
+    max-width: 35vw
 }
 
 html {font-size: 1.188em}
@@ -91,6 +93,7 @@ h4 {font-size: 1.414em;}
     background-color: #F0DB4F;
     font-family: 'Viga', sans-serif;
     padding-left: 14px;
+    padding-right: 14px;
     padding-top: 7px;
     padding-bottom: 7px
 }
@@ -119,7 +122,7 @@ h4 {font-size: 1.414em;}
     color: #33bbbb
 }
 
-.footer a {
+a {
     text-decoration: none;
 }
 
@@ -132,4 +135,33 @@ h4 {font-size: 1.414em;}
 
 .js-brown {
     color: #323330
+}
+
+.resource-block {
+    background-color: #323330;
+    color: #F0DB4F;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.resource-block h4 {
+    font-family: 'Viga', sans-serif;
+    margin-top: 0.5em
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F0DB4F; /*#396c82;*/ 
 }
