@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('http://assets.strato/octicons/octicons.css');
+
+body {
+background: #F0DB4F;
+
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row;
+
+font-family: 'Rubik';
+
+margin: 0;
+padding: 0
+
+}
+
+.block {
+    background-color: white;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: #323330;
+}
+
+.body {
+    margin: 5vw
+}
+
+html {font-size: 1.188em}
+
+body {
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+h1 {
+    margin-left: 0;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 3.998em;
+}
+
+h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  display: block
+}
+
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em; }
+
+h4 {font-size: 1.414em;}
+
+/* Colors */
+.blue {
+    color: #33bbbb
+}
+
+.green {
+    color: #55cc88
+}
+
+.yellow {
+    color: #eecc44
+}
+
+.purple {
+    color: #441177
+}
+
+.grey {
+    color: #595f72
+}
+
+.js-fans-logo {
+    background-color: #F0DB4F;
+    font-family: 'Viga', sans-serif;
+    padding-left: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px
+}
+
+.footer {
+    position: fixed;
+    bottom: 3vh;
+    filter: opacity(50%);
+    transition-duration: .5s;
+    color: #33bbbb;
+}
+
+.footer:hover {
+    filter: opacity(100%);
+}
+
+* {
+    animation-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
+}
+
+.pixl-logo {
+    margin-bottom: -15px
+}
+
+.blue-text {
+    color: #33bbbb
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+::selection {
+  background: #F0DB4F; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #F0DB4F; /* Gecko Browsers */
+}
