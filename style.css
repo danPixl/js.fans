@@ -22,18 +22,12 @@ padding: 0
 .block {
     z-index: 5;
     background-color: transparent;
-    width: 65vw;
-    height: 100vh;
+    max-width: 35vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
     color: #323330;
-}
-
-.body {
-    margin: 5vw;
-    max-width: 35vw
 }
 
 html {font-size: 1.188em}
