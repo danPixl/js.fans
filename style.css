@@ -100,7 +100,7 @@ h4 {font-size: 1.414em;}
     bottom: 3vh;
     filter: opacity(50%);
     transition-duration: .5s;
-    color: #33bbbb;
+    color: #F0DB4F
 }
 
 .footer:hover {
@@ -128,4 +128,8 @@ h4 {font-size: 1.414em;}
 }
 ::-moz-selection {
   background: #F0DB4F; /* Gecko Browsers */
+}
+
+.js-brown {
+    color: #323330
 }
