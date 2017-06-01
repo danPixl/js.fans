@@ -165,3 +165,11 @@ canvas {
   height: 100%;
   background-color: #F0DB4F;
 }
+
+a:link {
+    color: #323330;
+}
+
+a:visited {
+    color: #323330;
+}
